@@ -1,0 +1,9 @@
+@import url("https://use.typekit.net/pdb5qoa.css"); /* Gotham */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+:root {
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: gotham, -apple-system, system-ui, sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
+}

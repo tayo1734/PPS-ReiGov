@@ -1,0 +1,21 @@
+/* Text colors */
+.text {
+  color: var(--color-text);
+}
+.text-inverse {
+  color: var(--color-text-inverse);
+}
+
+/* Background colors */
+.bg-light-teal {
+  background-color: var(--color-bg-light-teal);
+}
+.bg-light-purple {
+  background-color: var(--color-bg-light-purple);
+}
+.bg-dark-teal {
+  background-color: var(--color-bg-dark-teal);
+}
+.bg-dark-purple {
+  background-color: var(--color-bg-dark-purple);
+}
