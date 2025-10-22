@@ -122,18 +122,10 @@
 }
 
 /* Lede */
-.body-lede {
-  font-family: var(--font-sans);
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: -0.44px;
-}
-
-/* WordPress large text remap */
+.body-lede,
 .has-large-font-size {
   font-family: var(--font-sans);
-  font-size: 22px;
+  font-size: 22px !important;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: -0.44px;

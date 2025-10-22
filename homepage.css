@@ -1,0 +1,38 @@
+/* * * * * * * *  Reset * * * * * * * *  */
+.container {
+  max-width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.block {
+  padding: 0 !important;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+/* * * * * * * *  
+______________________________
+
+Text and Copy block
+______________________________
+
+* * * * * * * *  */
+.text-copy {
+  padding: 0 7vw;
+}
+
+.home-hero {
+  background-image: none;
+  background-color: var(--color-bg-dark-teal);
+  background-position: center center !important;
+  background-attachment: scroll !important;
+}
+
+.text-copy .wp-block-columns > .img-col {
+  max-width: 65%;
+  margin: 0px 4vw;
+}
+.text-copy .wp-block-columns > .text-col {
+  max-width: 35%;
+  margin: 0 4vw 0 6vw;
+}
