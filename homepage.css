@@ -26,6 +26,7 @@ ______________________________
   background-color: var(--color-bg-dark-teal);
   background-position: center center !important;
   background-attachment: scroll !important;
+  min-height: 82vh;
 }
 
 .text-copy .wp-block-columns > .img-col {
