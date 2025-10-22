@@ -22,7 +22,7 @@ ______________________________
 }
 
 .home-hero {
-  background-image: none;
+  background-image: none !important;
   background-color: var(--color-bg-dark-teal);
   background-position: center center !important;
   background-attachment: scroll !important;

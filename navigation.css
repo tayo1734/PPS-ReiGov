@@ -1,0 +1,48 @@
+header.site-header {
+  background: var(--color-teal-100);
+}
+.nav-link,
+.navbar {
+  padding: 28px 28px;
+}
+a.nav-link {
+  color: var(--color-teal-900);
+  font-family: var(--font-sans);
+  font-size: 28px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 100%;
+  letter-spacing: -0.2px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 8.5%;
+  text-underline-offset: 25%;
+  text-underline-position: from-font;
+}
+a.nav-link {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+a.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--color-teal-900);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.3s ease;
+}
+
+a.nav-link:hover {
+  color: var(--color-teal-700);
+}
+
+a.nav-link:hover::after {
+  transform: scaleX(1);
+}
